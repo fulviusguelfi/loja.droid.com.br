@@ -94,9 +94,6 @@ class ControllerExtensionModuleMegnorTabs extends Controller {
 		
 		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true);
 		
-                var_dump($this->request->get());
-                die;
-                
 		if (isset($this->request->get['module_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
 			$module_info = $this->model_extension_module->getModule($this->request->get['module_id']);
 		}
