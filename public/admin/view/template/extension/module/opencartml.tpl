@@ -244,7 +244,7 @@
                                         {% for currencie in currencies %}
                                         {% if currencie.id == module_opencartml_currency %}
                                         <option value="<?php echo $currencie.id; ?>" selected><?php echo $currencie.description; ?></option>
-                                        <?php else: ?>
+                                        {% else %}
                                         <option value="<?php echo $currencie.id; ?>"><?php echo $currencie.description; ?></option>
                                         {% endif %}
                                         {% endfor %}
