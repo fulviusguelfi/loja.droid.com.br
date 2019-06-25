@@ -213,21 +213,15 @@
                             <div class="form-group required">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_category; ?>"><?php echo $entry_ml_category; ?></span></label>
                                 <div class="col-sm-10">
-                                        <?php 
-                                        print_r($categories);
-                                        ?>
                                     <select name="module_opencartml_category" class="form-control">
-                                        {% for categorie in categories %}
-                                        {% if categorie.id == module_opencartml_category %}
-                                        <option value="<?php echo $categorie.id; ?>" selected><?php echo $categorie.name; ?></option>
-                                        {% else %}
-                                        <option value="<?php echo $categorie.id; ?>"><?php echo $categorie.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php foreach($categories as $categorie):?>
+                                        <?php if ($categorie->id == 'module_opencartml_category'): ?>
+                                        <option value="<?php echo $categorie->id; ?>" selected><?php echo $categorie->name; ?></option>
+                                        <?php else: ?>
+                                        <option value="<?php echo $categorie->id; ?>"><?php echo $categorie->name; ?></option>
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
-                                        <?php
-                                        die;
-                                        ?>
                                 </div>
                             </div>                                    
 
@@ -250,7 +244,7 @@
                                         {% for currencie in currencies %}
                                         {% if currencie.id == module_opencartml_currency %}
                                         <option value="<?php echo $currencie.id; ?>" selected><?php echo $currencie.description; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="<?php echo $currencie.id; ?>"><?php echo $currencie.description; ?></option>
                                         {% endif %}
                                         {% endfor %}
