@@ -241,13 +241,20 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_currency; ?>"><?php echo $entry_ml_currency; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_currency" class="form-control">
-                                        {% for currencie in currencies %}
-                                        {% if currencie.id == module_opencartml_currency %}
+                                        <pre>
+                                        <?php
+                                        print_r(currencies);
+                                        print_r($listing_types);
+                                        die;
+                                        ?>
+                                        </pre>
+                                        <?php foreach($currencies as $currencie):?>
+                                        <?php if ($currencie['id'] == 'module_opencartml_currency'): ?>
                                         <option value="<?php echo $currencie.id; ?>" selected><?php echo $currencie.description; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="<?php echo $currencie.id; ?>"><?php echo $currencie.description; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>   
@@ -256,13 +263,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_adtype; ?>"><?php echo $entry_ml_adtype; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_adtype" class="form-control">
-                                        {% for listing_type in listing_types %}                                           
-                                        {% if listing_type.id == module_opencartml_adtype %}
+                                        <?php foreach($listing_types as $listing_type):?>
+                                        <?php if ($listing_type['id'] == 'module_opencartml_adtype'): ?>
                                         <option value="<?php echo $listing_type.id; ?>" selected><?php echo $listing_type.name; ?></option>                                       
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="<?php echo $listing_type.id; ?>"><?php echo $listing_type.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>   
