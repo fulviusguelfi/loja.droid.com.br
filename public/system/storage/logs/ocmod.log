@@ -1,0 +1,1364 @@
+2019-06-24 1:22:28 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:22:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:22:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:23:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:24:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+
+FILE: system/library/template/twig.php
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: d_opencart_patch
+
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 539
+
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:25:12 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+FILE: system/library/template/twig.php
+NOT FOUND!
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: d_opencart_patch
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 539
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: d_twig_manager
+CODE: $file = DIR_TEMPLATE . $template;
+NOT FOUND!
+CODE: $output = $template->render($route . '.tpl'
+LINE: 92
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:27:50 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+FILE: system/library/template/twig.php
+NOT FOUND!
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+NOT FOUND!
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 95
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 98
+FILE: system/library/cart/tax.php
+CODE: final class Tax {
+LINE: 8
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: d_opencart_patch
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 539
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: d_twig_manager
+CODE: $file = DIR_TEMPLATE . $template;
+NOT FOUND!
+CODE: $output = $template->render($route . '.tpl'
+LINE: 92
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:39:17 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+
+FILE: system/library/template/twig.php
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 95
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 98
+
+FILE: system/library/cart/tax.php
+CODE: final class Tax {
+LINE: 8
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: d_opencart_patch
+
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 539
+
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: d_twig_manager
+CODE: $file = DIR_TEMPLATE . $template;
+NOT FOUND - OPERATION SKIPPED!
+CODE: $output = $template->render($route . '.tpl'
+LINE: 92
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:39:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+
+FILE: system/library/template/twig.php
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 95
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 98
+
+FILE: system/library/cart/tax.php
+CODE: final class Tax {
+LINE: 8
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: d_opencart_patch
+
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 539
+
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: d_twig_manager
+CODE: $file = DIR_TEMPLATE . $template;
+NOT FOUND - OPERATION SKIPPED!
+CODE: $output = $template->render($route . '.tpl'
+LINE: 92
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------
+2019-06-24 1:40:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+
+FILE: system/library/template/twig.php
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Ajax Quick Checkout
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
+NOT FOUND - OPERATIONS ABORTED!
+CODE: $this->response->setOutput($this->load->view('checkout/checkout', $data));
+LINE: 95
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 98
+
+FILE: system/library/cart/tax.php
+CODE: final class Tax {
+LINE: 8
+----------------------------------------------------------------
+MOD: d_oc2_installer_fix
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function sql() {
+LINE: 447
+----------------------------------------------------------------
+MOD: d_opencart_patch
+
+FILE: admin/controller/extension/extension/dashboard.php
+CODE: 'dashboard_' . $this->request->get['extension']
+LINE: 18
+LINE: 40
+CODE: $this->load->controller('extension/dashboard/' . $this->request->get['extension'] . '/uninstall');
+LINE: 48
+CODE: $this->model_extension_extension->uninstall('dashboard', $value);
+LINE: 94
+
+FILE: admin/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 9
+LINE: 20
+
+FILE: admin/controller/extension/extension/feed.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/feed/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/fraud.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/fraud/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/module.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/module/' . $this->request->get['extension']);
+LINE: 32
+CODE: $data['extensions'][] = array(
+LINE: 166
+
+FILE: admin/controller/extension/extension/payment.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/payment/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/shipping.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/shipping/' . $this->request->get['extension']);
+LINE: 28
+
+FILE: admin/controller/extension/extension/theme.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/theme/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: admin/controller/extension/extension/total.php
+CODE: $this->model_user_user_group->addPermission($this->user->getGroupId(), 'modify', 'extension/total/' . $this->request->get['extension']);
+LINE: 29
+
+FILE: catalog/controller/event/compatibility.php
+CODE: $route = $part[1] . '/' . $part[2];
+LINE: 27
+LINE: 37
+LINE: 55
+
+FILE: system/library/cart/user.php
+CODE: return in_array($value, $this->permission[$key]);
+LINE: 72
+
+FILE: system/config/catalog.php
+CODE: $_['action_event'] = array(
+LINE: 49
+CODE: class ControllerEventCompatibility extends Controller {
+LINE: 5
+CODE: public function view(&$route, &$data) {
+LINE: 40
+
+FILE: admin/model/localisation/language.php
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "banner_image_description WHERE language_id = '" . (int)$language_id . "'");
+LINE: 221
+
+FILE: admin/view/template/extension/extension/analytics.tpl
+CODE: <?php } ?>
+LINE: 32
+CODE: <?php } else { ?>
+LINE: 48
+
+FILE: admin/controller/user/user_permission.php
+CODE: $path[] = $file . '/*';
+LINE: 361
+CODE: $permission = substr($controller, 0, strrpos($controller, '.'));
+LINE: 377
+CODE: $modification_info = $this->model_extension_modification->getModificationByCode($code);
+LINE: 539
+
+FILE: admin/controller/common/filemanager.php
+CODE: $files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+LINE: 47
+CODE: 'jpg',
+LINE: 256
+CODE: 'image/jpeg',
+LINE: 269
+
+FILE: admin/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+
+FILE: catalog/model/tool/image.php
+CODE: public function resize($filename, $width, $height) {
+LINE: 18
+----------------------------------------------------------------
+MOD: d_twig_manager
+CODE: $file = DIR_TEMPLATE . $template;
+NOT FOUND - OPERATION SKIPPED!
+CODE: $output = $template->render($route . '.tpl'
+LINE: 92
+----------------------------------------------------------------
+MOD: PayPalPlusMex
+
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 7
+----------------------------------------------------------------
+MOD: URL amigável automática para OpenCart 2.x
+
+FILE: admin/view/template/common/header.tpl
+CODE: </head>
+LINE: 35
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 544
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1424
+
+FILE: admin/controller/catalog/category.php
+CODE: protected function getForm() {
+LINE: 297
+
+FILE: admin/view/template/catalog/category_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 313
+
+FILE: admin/controller/catalog/information.php
+CODE: protected function getForm() {
+LINE: 262
+
+FILE: admin/view/template/catalog/information_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 225
+
+FILE: admin/view/template/catalog/manufacturer_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 104
+----------------------------------------------------------------

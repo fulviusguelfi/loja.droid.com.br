@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<is>pp_plus_mex</is>
+	<code>pp_plus_mex</code>
+	<name>PayPalPlusMex</name>
+	<version>1.0.1</version>
+	<author>Treebes.com</author>
+	<link>https://www.treebes.com</link>
+    <file path="catalog/controller/common/header.php">
+		<operation>
+			<search trim="true" limit="1"><![CDATA[
+			public function index() {
+			]]></search>
+			<add position="after"><![CDATA[
+		//added for PayPalPlusMEX by Treebes 
+		$this->document->addScript('https://www.paypalobjects.com/webstatic/ppplusdcc/ppplusdcc.min.js?'.rand(0,999));
+		//end for PayPalPlusMEX by Treebes 
+			]]></add>
+		</operation>
+    </file>
+</modification>
