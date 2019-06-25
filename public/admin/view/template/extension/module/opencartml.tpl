@@ -213,7 +213,10 @@
                             <div class="form-group required">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_category; ?>"><?php echo $entry_ml_category; ?></span></label>
                                 <div class="col-sm-10">
-                                    teste
+                                    <?php 
+                                    var_dump($categories);
+                                    die;
+                                    ?>
                                     <select name="module_opencartml_category" class="form-control">
                                         {% for categorie in categories %}
                                         {% if categorie.id == module_opencartml_category %}
