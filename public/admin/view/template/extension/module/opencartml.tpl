@@ -371,14 +371,10 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_aguardando_pagamento; ?>"><?php echo $entry_ml_aguardando_pagamento; ?></span></label>
                                 <div class="col-sm-10">
-                                    <?php
-                                    print_r($statuses);
-                                    die;
-                                    ?>
                                     <select name="module_opencartml_aguardando_pagamento" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status->order_status_id == 'module_opencartml_aguardando_pagamento'): ?>
-                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php if ($status['order_status_id'] == 'module_opencartml_aguardando_pagamento'): ?>
+                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status->name; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
                                         <?php endif; ?>
@@ -393,10 +389,10 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_analise" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status->order_status_id == 'module_opencartml_analise'): ?>
-                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php if ($status['order_status_id'] == 'module_opencartml_analise'): ?>
+                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
-                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
@@ -409,10 +405,10 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_completed" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status->order_status_id == 'module_opencartml_completed'): ?>
-                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php if ($status['order_status_id'] == 'module_opencartml_completed'): ?>
+                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
-                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
@@ -425,10 +421,10 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_shiped" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status->order_status_id == 'module_opencartml_shiped'): ?>
-                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php if ($status['order_status_id'] == 'module_opencartml_shiped'): ?>
+                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
-                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
@@ -441,13 +437,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_delivered; ?>"><?php echo $entry_ml_delivered; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_delivered" class="form-control">
-                                        {% for status in statuses %}
-                                        {% if module_opencartml_delivered == status.order_status_id %}
-                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
-                                        {% else %}
-                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php foreach($statuses as $status):?>
+                                        <?php if ($status['order_status_id'] == 'module_opencartml_delivered'): ?>
+                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
+                                        <?php else: ?>
+                                        <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>
@@ -457,13 +453,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $entry_ml_canceled; ?>"><?php echo $entry_ml_canceled; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_canceled" class="form-control">
-                                        {% for status in statuses %}
-                                        {% if module_opencartml_canceled == status.order_status_id %}
+                                        <?php foreach($statuses as $status):?>
+                                        <?php if ($status['order_status_id'] == 'module_opencartml_canceled'): ?>
                                         <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>
@@ -474,18 +470,18 @@
                                 <div class="col-sm-10">
                                     <div class="alert alert-info">
                                         <i class="fa fa-info-circle"></i>
-                                        {% if auth_code %}
+                                        <?php if ($auth_code): ?>
                                         <?php echo $text_ml_grant_access; ?>
-                                        {% else %}                                         
+                                        <?php else: ?>
                                         <?php echo $text_ml_autorization; ?>
-                                        {% endif %}
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-10">
                                 <div class="panel-body">
 
-                                    {% if auth_code %}
+                                        <?php if ($auth_code): ?>
                                     <p>Você já esta autorizado sob o código :: <?php echo $auth_code; ?></p>                                    
                                     <p><strong>Id da sua conta: </strong><?php echo $account.id; ?></p>
                                     <p><strong>Seu pelino: </strong><?php echo $account.nickname; ?></p>
@@ -494,11 +490,11 @@
 
 
 
-                                    {% else %}    
+                                        <?php else: ?>
                                     <span class="input-group-btn">
                                         <a href="<?php echo $auth_link; ?>" class="btn btn-primary"><?php echo $text_ml_b_auth; ?></a>
                                     </span>
-                                    {% endif %}
+                                        <?php endif; ?>
                                 </div>
                             </div>
                         </div>
