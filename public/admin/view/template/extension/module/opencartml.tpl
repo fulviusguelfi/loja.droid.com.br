@@ -215,7 +215,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_category" class="form-control">
                                         <?php foreach($categories as $categorie):?>
-                                        <?php if ($categorie->id == 'module_opencartml_category'): ?>
+                                        <?php if ($categorie->id == $module_opencartml_category): ?>
                                         <option value="<?php echo $categorie->id; ?>" selected><?php echo $categorie->name; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $categorie->id; ?>"><?php echo $categorie->name; ?></option>
@@ -242,7 +242,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_currency" class="form-control">
                                         <?php foreach($currencies as $currencie):?>
-                                        <?php if ($currencie->id == 'module_opencartml_currency'): ?>
+                                        <?php if ($currencie->id == $module_opencartml_currency): ?>
                                         <option value="<?php echo $currencie->id; ?>" selected><?php echo $currencie->description; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $currencie->id; ?>"><?php echo $currencie->description; ?></option>
