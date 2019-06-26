@@ -36,7 +36,6 @@ class ControllerExtensionModuleOpencartml extends Controller {
 
         print_r($this->request->post);
         print_r($_POST);
-        die;
         
         if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
             $this->load->model('setting/setting');
