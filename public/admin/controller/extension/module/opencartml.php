@@ -269,6 +269,20 @@ class ControllerExtensionModuleOpencartml extends Controller {
         } else {
             $data['module_opencartml_ml_cpf'] = $this->config->get('module_opencartml_ml_cpf');
         }
+        
+        /* Client_custom field numero */
+        if (isset($this->request->post['module_opencartml_category'])) {
+            $data['module_opencartml_category'] = $this->request->post['module_opencartml_category'];
+        } else {
+            $data['module_opencartml_category'] = $this->config->get('module_opencartml_category');
+        }
+        
+        /* Client_custom field numero */
+        if (isset($this->request->post['module_opencartml_subcategory'])) {
+            $data['module_opencartml_subcategory'] = $this->request->post['module_opencartml_subcategory'];
+        } else {
+            $data['module_opencartml_subcategory'] = $this->config->get('module_opencartml_subcategory');
+        }
 
         /* Debug */
         if (isset($this->request->post['module_opencartml_debug'])) {

@@ -231,8 +231,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_subcategory; ?>"><?php echo $entry_ml_subcategory; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_subcategory" class="form-control">
+                                        <?php if (1 == $module_opencartml_subcategory): ?>
                                         <option value="1" selected><?php echo $text_enabled; ?></option>
-                                        <option value="0"><?php echo $text_enabled; ?></option>
+                                        <option value="0"><?php echo $text_disabled; ?></option>
+                                        <?php else: ?>
+                                        <option value="1" ><?php echo $text_enabled; ?></option>
+                                        <option value="0" selected><?php echo $text_disabled; ?></option>
+                                        <?php endif; ?>
                                     </select>
                                 </div>
                             </div>   
