@@ -262,7 +262,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_adtype" class="form-control">
                                         <?php foreach($listing_types as $listing_type):?>
-                                        <?php if ($listing_type->id == 'module_opencartml_adtype'): ?>
+                                        <?php if ($listing_type->id == $module_opencartml_adtype): ?>
                                         <option value="<?php echo $listing_type->id; ?>" selected><?php echo $listing_type->name; ?></option>                                       
                                         <?php else: ?>
                                         <option value="<?php echo $listing_type->id; ?>"><?php echo $listing_type->name; ?></option>

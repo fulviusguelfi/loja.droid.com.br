@@ -283,6 +283,13 @@ class ControllerExtensionModuleOpencartml extends Controller {
         } else {
             $data['module_opencartml_subcategory'] = $this->config->get('module_opencartml_subcategory');
         }
+        
+        /* Client_custom field numero */
+        if (isset($this->request->post['module_opencartml_currency'])) {
+            $data['module_opencartml_currency'] = $this->request->post['module_opencartml_currency'];
+        } else {
+            $data['module_opencartml_currency'] = $this->config->get('module_opencartml_currency');
+        }
 
         /* Debug */
         if (isset($this->request->post['module_opencartml_debug'])) {
