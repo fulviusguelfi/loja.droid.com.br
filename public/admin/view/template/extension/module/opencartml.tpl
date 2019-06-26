@@ -144,7 +144,7 @@
                                         ?>
                                         <select name="module_opencartml_ml_number" class="form-control">
                                             <?php foreach($custom_fields as $custom_field):?>
-                                            <?php if ($custom_field['custom_field_id'] == 'module_opencartml_ml_number'): ?>
+                                            <?php if ($custom_field['custom_field_id'] == $module_opencartml_ml_number): ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>" selected><?php echo $custom_field['name']; ?></option>
                                             <?php else: ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>"><?php echo $custom_field['name']; ?></option>
@@ -166,7 +166,7 @@
                                     <span class="input-group">
                                         <select name="module_opencartml_ml_data_nascimento" class="form-control">
                                             <?php foreach($custom_fields as $custom_field):?>
-                                            <?php if ($custom_field['custom_field_id'] == 'module_opencartml_ml_data_nascimento'): ?>
+                                            <?php if ($custom_field['custom_field_id'] == $module_opencartml_ml_data_nascimento): ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>" selected><?php echo $custom_field['name']; ?></option>
                                             <?php else: ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>"><?php echo $custom_field['name']; ?></option>
@@ -188,7 +188,7 @@
                                     <span class="input-group">
                                         <select name="module_opencartml_ml_cpf" class="form-control">
                                             <?php foreach($custom_fields as $custom_field):?>
-                                            <?php if ($custom_field['custom_field_id'] == 'module_opencartml_ml_data_nascimento'): ?>
+                                            <?php if ($custom_field['custom_field_id'] == $module_opencartml_ml_data_nascimento): ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>" selected><?php echo $custom_field['name']; ?></option>
                                             <?php else: ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>"><?php echo $custom_field['name']; ?></option>
