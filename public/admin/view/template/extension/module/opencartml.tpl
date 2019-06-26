@@ -240,10 +240,6 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_currency; ?>"><?php echo $entry_ml_currency; ?></span></label>
                                 <div class="col-sm-10">
-                                    <?php
-                                    print_r($module_opencartml_currency);
-                                    
-                                    ?>
                                     <select name="module_opencartml_currency" class="form-control">
                                         <pre>
                                         </pre>
@@ -276,6 +272,10 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_itemcondition; ?>"><?php echo $entry_ml_itemcondition; ?></span></label>
                                 <div class="col-sm-10">
+                                    <?php
+                                    print_r($module_opencartml_itemcondition);
+                                    
+                                    ?>
                                     <select name="module_opencartml_itemcondition" class="form-control">
                                         {% if module_opencartml_itemcondition %}    
                                         <option value="1" selected><?php echo $text_ml_new; ?></option>
