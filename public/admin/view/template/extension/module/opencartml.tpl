@@ -374,9 +374,9 @@
                                     <select name="module_opencartml_aguardando_pagamento" class="form-control">
                                         <?php foreach($statuses as $status):?>
                                         <?php if ($status['order_status_id'] == 'module_opencartml_aguardando_pagamento'): ?>
-                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status->name; ?></option>
+                                        <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
-                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status['name']; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
@@ -455,9 +455,9 @@
                                     <select name="module_opencartml_canceled" class="form-control">
                                         <?php foreach($statuses as $status):?>
                                         <?php if ($status['order_status_id'] == 'module_opencartml_canceled'): ?>
-                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
+                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
-                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
+                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status['name']; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
