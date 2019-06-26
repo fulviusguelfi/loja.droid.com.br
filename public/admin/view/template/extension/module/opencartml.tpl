@@ -270,9 +270,6 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_itemcondition; ?>"><?php echo $entry_ml_itemcondition; ?></span></label>
                                 <div class="col-sm-10">
-                                    <?php
-                                    var_dump($module_opencartml_itemcondition);
-                                    ?>
                                     <select name="module_opencartml_itemcondition" class="form-control">
                                         <?php if ($module_opencartml_itemcondition): ?>
                                         <option value="1" selected><?php echo $text_ml_new; ?></option>
@@ -305,6 +302,9 @@
                             <div class="form-group required"><!-- Status -->
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_feedback_status; ?>"><?php echo $entry_ml_feedback_status; ?></span></label>
                                 <div class="col-sm-10">
+                                    <?php
+                                    var_dump($module_opencartml_feedback_status);
+                                    ?>
                                     <select name="module_opencartml_feedback_status" class="form-control">
                                         <?php if ($module_opencartml_feedback_status): ?>
                                         <option value="1" selected><?php echo $text_enabled; ?></option>
