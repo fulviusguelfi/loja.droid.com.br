@@ -480,7 +480,10 @@
                             </div>
                             <div class="col-sm-10">
                                 <div class="panel-body">
-
+<?php 
+var_dump($account);
+die;
+?>
                                         <?php if ($auth_code): ?>
                                     <p>Você já esta autorizado sob o código :: <?php echo $auth_code; ?></p>                                    
                                     <p><strong>Id da sua conta: </strong><?php echo $account.id; ?></p>
