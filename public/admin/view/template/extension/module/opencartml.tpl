@@ -242,17 +242,12 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_currency" class="form-control">
                                         <pre>
-                                        <?php
-                                        print_r(currencies);
-                                        print_r($listing_types);
-                                        die;
-                                        ?>
                                         </pre>
                                         <?php foreach($currencies as $currencie):?>
-                                        <?php if ($currencie['id'] == 'module_opencartml_currency'): ?>
-                                        <option value="<?php echo $currencie.id; ?>" selected><?php echo $currencie.description; ?></option>
+                                        <?php if ($currencie->id == 'module_opencartml_currency'): ?>
+                                        <option value="<?php echo $currencie->id; ?>" selected><?php echo $currencie->description; ?></option>
                                         <?php else: ?>
-                                        <option value="<?php echo $currencie.id; ?>"><?php echo $currencie.description; ?></option>
+                                        <option value="<?php echo $currencie->id; ?>"><?php echo $currencie->description; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
@@ -264,10 +259,10 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_adtype" class="form-control">
                                         <?php foreach($listing_types as $listing_type):?>
-                                        <?php if ($listing_type['id'] == 'module_opencartml_adtype'): ?>
-                                        <option value="<?php echo $listing_type.id; ?>" selected><?php echo $listing_type.name; ?></option>                                       
+                                        <?php if ($listing_type->id == 'module_opencartml_adtype'): ?>
+                                        <option value="<?php echo $listing_type->id; ?>" selected><?php echo $listing_type->name; ?></option>                                       
                                         <?php else: ?>
-                                        <option value="<?php echo $listing_type.id; ?>"><?php echo $listing_type.name; ?></option>
+                                        <option value="<?php echo $listing_type->id; ?>"><?php echo $listing_type->name; ?></option>
                                         <?php endif; ?>
                                         <?php endforeach;?>
                                     </select>
