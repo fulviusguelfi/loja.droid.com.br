@@ -138,10 +138,6 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_number; ?>"><?php echo $entry_ml_number; ?></span></label>
                                 <div class="col-sm-10">
                                     <span class="input-group">
-                                        <?php
-                                        var_dump($custom_fields);
-                                        die;
-                                        ?>
                                         <select name="module_opencartml_ml_number" class="form-control">
                                             <?php foreach($custom_fields as $custom_field):?>
                                             <?php if ($custom_field['custom_field_id'] == $module_opencartml_ml_number): ?>
