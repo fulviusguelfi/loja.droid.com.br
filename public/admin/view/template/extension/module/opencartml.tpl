@@ -372,13 +372,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_aguardando_pagamento; ?>"><?php echo $entry_ml_aguardando_pagamento; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_aguardando_pagamento" class="form-control">
-                                        {% for status in statuses %}
-                                        {% if module_opencartml_aguardando_pagamento == status.order_status_id %}
-                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
-                                        {% else %}
-                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php foreach($statuses as $status):?>
+                                        <?php if ($status->order_status_id == 'module_opencartml_aguardando_pagamento'): ?>
+                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php else: ?>
+                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>
@@ -388,13 +388,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_analise; ?>"><?php echo $entry_ml_analise; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_analise" class="form-control">
-                                        {% for status in statuses %}
-                                        {% if module_opencartml_analise == status.order_status_id %}
-                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
-                                        {% else %}
-                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php foreach($statuses as $status):?>
+                                        <?php if ($status->order_status_id == 'module_opencartml_analise'): ?>
+                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php else: ?>
+                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>
@@ -404,13 +404,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_completed; ?>"><?php echo $entry_ml_completed; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_completed" class="form-control">
-                                        {% for status in statuses %}
-                                        {% if module_opencartml_completed == status.order_status_id %}
-                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
-                                        {% else %}
-                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php foreach($statuses as $status):?>
+                                        <?php if ($status->order_status_id == 'module_opencartml_completed'): ?>
+                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php else: ?>
+                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>
@@ -420,13 +420,13 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_shiped; ?>"><?php echo $entry_ml_shiped; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_shiped" class="form-control">
-                                        {% for status in statuses %}
-                                        {% if module_opencartml_shiped == status.order_status_id %}
-                                        <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status.name; ?></option>
-                                        {% else %}
-                                        <option value="<?php echo $status.order_status_id; ?>"><?php echo $status.name; ?></option>
-                                        {% endif %}
-                                        {% endfor %}
+                                        <?php foreach($statuses as $status):?>
+                                        <?php if ($status->order_status_id == 'module_opencartml_shiped'): ?>
+                                        <option value="<?php echo $status->order_status_id; ?>" selected><?php echo $status->name; ?></option>
+                                        <?php else: ?>
+                                        <option value="<?php echo $status->order_status_id; ?>"><?php echo $status->name; ?></option>
+                                        <?php endif; ?>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                             </div>
