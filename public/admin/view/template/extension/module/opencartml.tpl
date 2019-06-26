@@ -183,7 +183,7 @@
                                 <div class="col-sm-10">
                                     <span class="input-group">
                                         <select name="module_opencartml_ml_cpf" class="form-control">
-                                            <?php foreach($custom_fields as $custom_fields):?>
+                                            <?php foreach($custom_fields as $custom_field):?>
                                             <?php if ($custom_field['custom_field_id'] == 'module_opencartml_ml_data_nascimento'): ?>
                                             <option value="<?php echo $custom_field['custom_field_id']; ?>" selected><?php echo $custom_field['name']; ?></option>
                                             <?php else: ?>
