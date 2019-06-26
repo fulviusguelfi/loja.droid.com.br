@@ -277,16 +277,16 @@
                                     
                                     ?>
                                     <select name="module_opencartml_itemcondition" class="form-control">
-                                        {% if module_opencartml_itemcondition %}    
+                                        <?php if ($module_opencartml_itemcondition): ?>
                                         <option value="1" selected><?php echo $text_ml_new; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="1"><?php echo $text_ml_new; ?></option>               
-                                        {% endif %}
-                                        {% if not module_opencart_itemcondition%}
+                                        <?php endif; ?>
+                                        <?php if (!$module_opencartml_itemcondition): ?>
                                         <option value="0" selected> <?php echo $text_ml_used; ?></option>                                    
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="0"> <?php echo $text_ml_used; ?></option>                                           
-                                        {% endif %}
+                                        <?php endif; ?>
                                     </select>
                                 </div>
                             </div>   
@@ -309,16 +309,16 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_feedback_status; ?>"><?php echo $entry_ml_feedback_status; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_feedback_status" class="form-control">
-                                        {% if module_opencartml_feedback_status %}
+                                        <?php if ($module_opencartml_feedback_status): ?>
                                         <option value="1" selected><?php echo $text_enabled; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="1"><?php echo $text_enabled; ?></option>
-                                        {% endif %}
-                                        {% if not module_opencartml_feedback_status %}
+                                        <?php endif; ?>
+                                        <?php if (!$module_opencartml_feedback_status): ?>
                                         <option value="0" selected><?php echo $text_disabled; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="0"><?php echo $text_disabled; ?></option>
-                                        {% endif %}
+                                        <?php endif; ?>
                                     </select>
                                 </div>
                             </div><!-- Status -->  
@@ -328,16 +328,16 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_feedback_status_post; ?>"><?php echo $entry_ml_feedback_status_post; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_feedback_status_post" class="form-control">
-                                        {% if module_opencartml_feedback_status_post %}
+                                        <?php if ($module_opencartml_feedback_status_post): ?>
                                         <option value="1" selected><?php echo $entry_ml_feedback_arrival; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="1"><?php echo $entry_ml_feedback_arrival; ?></option>
-                                        {% endif %}
-                                        {% if not module_opencartml_feedback_status_post %}
+                                        <?php endif; ?>
+                                        <?php if (!$module_opencartml_feedback_status_post): ?>
                                         <option value="0" selected><?php echo $entry_ml_feedback_shipped; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="0"><?php echo $entry_ml_feedback_shipped; ?></option>
-                                        {% endif %}
+                                        <?php endif; ?>
                                     </select>
                                 </div>
                             </div><!-- Status -->  
@@ -347,16 +347,16 @@
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_feedback_rating; ?>"><?php echo $entry_ml_feedback_rating; ?></span></label>
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_feedback_rating" class="form-control">
-                                        {% if module_opencartml_feedback_rating %}
+                                        <?php if ($module_opencartml_feedback_rating): ?>
                                         <option value="positive" selected><?php echo $text_positive; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="positive"><?php echo $text_positive; ?></option>
-                                        {% endif %}
-                                        {% if not module_opencartml_feedback_rating %}
+                                        <?php endif; ?>
+                                        <?php if (!$module_opencartml_feedback_rating): ?>
                                         <option value="neutral" selected><?php echo $text_neutral; ?></option>
-                                        {% else %}
+                                        <?php else: ?>
                                         <option value="neurtral"><?php echo $text_neutral; ?></option>
-                                        {% endif %}
+                                        <?php endif; ?>
                                     </select>
                                 </div>
                             </div><!-- Status -->                          
