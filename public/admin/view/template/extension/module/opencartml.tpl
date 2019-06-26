@@ -371,6 +371,10 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_aguardando_pagamento; ?>"><?php echo $entry_ml_aguardando_pagamento; ?></span></label>
                                 <div class="col-sm-10">
+                                    <?php
+                                    print_r($statuses);
+                                    die;
+                                    ?>
                                     <select name="module_opencartml_aguardando_pagamento" class="form-control">
                                         <?php foreach($statuses as $status):?>
                                         <?php if ($status->order_status_id == 'module_opencartml_aguardando_pagamento'): ?>
