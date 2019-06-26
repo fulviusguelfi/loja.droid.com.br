@@ -34,6 +34,10 @@ class ControllerExtensionModuleOpencartml extends Controller {
 //        die;
         $token = $this->session->data['token'];
 
+        print_r($this->request->post);
+        print_r($_POST);
+        die;
+        
         if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
             $this->load->model('setting/setting');
 
