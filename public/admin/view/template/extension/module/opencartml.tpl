@@ -302,9 +302,6 @@
                             <div class="form-group required"><!-- Status -->
                                 <label class="col-sm-2 control-label"><span data-toggle="tooltip" data-html="true" title="<?php echo $help_ml_feedback_status; ?>"><?php echo $entry_ml_feedback_status; ?></span></label>
                                 <div class="col-sm-10">
-                                    <?php
-                                    var_dump($module_opencartml_feedback_status);
-                                    ?>
                                     <select name="module_opencartml_feedback_status" class="form-control">
                                         <?php if ($module_opencartml_feedback_status): ?>
                                         <option value="1" selected><?php echo $text_enabled; ?></option>
@@ -360,7 +357,7 @@
 
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label" for="input-description1"><?php echo $entry_ml_feedback_message; ?></label>
+                                <label class="col-sm-2 control-label" for="input-description1"><?php echo ($entry_ml_feedback_message ?? $entry_ml_template_default); ?></label>
                                 <div class="col-sm-10">
                                     <textarea name="module_opencartml_feedback_message" placeholder="Description" id="module_opencartml_feedback_message" data-toggle="none" data-lang="" class="form-control"><?php echo $module_opencartml_feedback_message; ?></textarea>
                                 </div>
