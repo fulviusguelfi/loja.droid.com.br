@@ -480,15 +480,11 @@
                             </div>
                             <div class="col-sm-10">
                                 <div class="panel-body">
-<?php 
-var_dump($account);
-die;
-?>
                                         <?php if ($auth_code): ?>
                                     <p>Você já esta autorizado sob o código :: <?php echo $auth_code; ?></p>                                    
-                                    <p><strong>Id da sua conta: </strong><?php echo $account.id; ?></p>
-                                    <p><strong>Seu pelino: </strong><?php echo $account.nickname; ?></p>
-                                    <p><strong>Sua página no Mercado Livre: </strong><a href="<?php echo $account.permalink; ?>" target="_blank"><?php echo $account.permalink; ?></a></p></p>    
+                                    <p><strong>Id da sua conta: </strong><?php echo $account->id; ?></p>
+                                    <p><strong>Seu apelido: </strong><?php echo $account->nickname; ?></p>
+                                    <p><strong>Sua página no Mercado Livre: </strong><a href="<?php echo $account->permalink; ?>" target="_blank"><?php echo $account->permalink; ?></a></p>
 
 
 
