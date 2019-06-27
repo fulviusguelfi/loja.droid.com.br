@@ -53,8 +53,16 @@ class ControllerExtensionModuleOpencartml extends Controller {
                 'module_opencartml_feedback_status_post' => $this->request->post['module_opencartml_feedback_status_post'],
                 'module_opencartml_feedback_rating' => $this->request->post['module_opencartml_feedback_rating'],
                 'module_opencartml_feedback_message' => $this->request->post['module_opencartml_feedback_message'],
-                'module_opencartml_itemcondition' => $this->request->post['module_opencartml_itemcondition'],
                 'module_opencartml_adtype' => $this->request->post['module_opencartml_adtype'],
+                
+                
+                'module_opencartml_itemcondition' => $this->request->post['module_opencartml_itemcondition'],
+                'module_opencartml_aguardando_pagamento' => $this->request->post['module_opencartml_aguardando_pagamento'],
+                'module_opencartml_analise' => $this->request->post['module_opencartml_analise'],
+                'module_opencartml_completed' => $this->request->post['module_opencartml_completed'],
+                'module_opencartml_shiped' => $this->request->post['module_opencartml_shiped'],
+                'module_opencartml_delivered' => $this->request->post['module_opencartml_delivered'],
+                'module_opencartml_canceled' => $this->request->post['module_opencartml_canceled'],
             ]);
 
 
@@ -345,6 +353,48 @@ class ControllerExtensionModuleOpencartml extends Controller {
             $data['module_opencartml_feedback_message'] = $this->request->post['module_opencartml_feedback_message'];
         } else {
             $data['module_opencartml_feedback_message'] = $this->config->get('module_opencartml_feedback_message');
+        }
+
+        /* Feedback Rating */
+        if (isset($this->request->post['module_opencartml_aguardando_pagamento'])) {
+            $data['module_opencartml_aguardando_pagamento'] = $this->request->post['module_opencartml_aguardando_pagamento'];
+        } else {
+            $data['module_opencartml_aguardando_pagamento'] = $this->config->get('module_opencartml_aguardando_pagamento');
+        }
+
+        /* Feedback Rating */
+        if (isset($this->request->post['module_opencartml_analise'])) {
+            $data['module_opencartml_analise'] = $this->request->post['module_opencartml_analise'];
+        } else {
+            $data['module_opencartml_analise'] = $this->config->get('module_opencartml_analise');
+        }
+
+        /* Feedback Rating */
+        if (isset($this->request->post['module_opencartml_completed'])) {
+            $data['module_opencartml_completed'] = $this->request->post['module_opencartml_completed'];
+        } else {
+            $data['module_opencartml_completed'] = $this->config->get('module_opencartml_completed');
+        }
+
+        /* Feedback Rating */
+        if (isset($this->request->post['module_opencartml_shiped'])) {
+            $data['module_opencartml_shiped'] = $this->request->post['module_opencartml_shiped'];
+        } else {
+            $data['module_opencartml_shiped'] = $this->config->get('module_opencartml_shiped');
+        }
+
+        /* Feedback Rating */
+        if (isset($this->request->post['module_opencartml_delivered'])) {
+            $data['module_opencartml_delivered'] = $this->request->post['module_opencartml_delivered'];
+        } else {
+            $data['module_opencartml_delivered'] = $this->config->get('module_opencartml_delivered');
+        }
+
+        /* Feedback Rating */
+        if (isset($this->request->post['module_opencartml_canceled'])) {
+            $data['module_opencartml_canceled'] = $this->request->post['module_opencartml_canceled'];
+        } else {
+            $data['module_opencartml_canceled'] = $this->config->get('module_opencartml_canceled');
         }
 
 

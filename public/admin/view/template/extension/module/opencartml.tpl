@@ -378,7 +378,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_aguardando_pagamento" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status['order_status_id'] == 'module_opencartml_aguardando_pagamento'): ?>
+                                        <?php if ($status['order_status_id'] == $module_opencartml_aguardando_pagamento): ?>
                                         <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status->order_status_id; ?>"><?php echo $status['name']; ?></option>
@@ -394,7 +394,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_analise" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status['order_status_id'] == 'module_opencartml_analise'): ?>
+                                        <?php if ($status['order_status_id'] == $module_opencartml_analise): ?>
                                         <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
