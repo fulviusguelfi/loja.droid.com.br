@@ -53,6 +53,7 @@ class ControllerExtensionModuleOpencartml extends Controller {
                 'module_opencartml_feedback_status_post' => $this->request->post['module_opencartml_feedback_status_post'],
                 'module_opencartml_feedback_rating' => $this->request->post['module_opencartml_feedback_rating'],
                 'module_opencartml_feedback_message' => $this->request->post['module_opencartml_feedback_message'],
+                'module_opencartml_itemcondition' => $this->request->post['module_opencartml_itemcondition'],
                 'module_opencartml_adtype' => $this->request->post['module_opencartml_adtype'],
             ]);
 
