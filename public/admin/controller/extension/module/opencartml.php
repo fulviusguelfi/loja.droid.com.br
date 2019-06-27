@@ -313,10 +313,17 @@ class ControllerExtensionModuleOpencartml extends Controller {
         }
 
         /* FeedBack Status */
+        if (isset($this->request->post['module_opencartml_itemcondition'])) {
+            $data['module_opencartml_itemcondition'] = $this->request->post['module_opencartml_itemcondition'];
+        } else {
+            $data['module_opencartml_itemcondition'] = $this->config->get('module_opencartml_itemcondition');
+        }
+        
+        /* FeedBack Status */
         if (isset($this->request->post['module_opencartml_feedback_status'])) {
             $data['module_opencartml_feedback_status'] = $this->request->post['module_opencartml_feedback_status'];
         } else {
-            $data['module_opencartml_feedback_status'] = $this->config->get('module_opencartml_debug');
+            $data['module_opencartml_feedback_status'] = $this->config->get('module_opencartml_feedback_status');
         }
 
         /* Feedback Status Post */
@@ -328,7 +335,7 @@ class ControllerExtensionModuleOpencartml extends Controller {
 
         /* Feedback Rating */
         if (isset($this->request->post['module_opencartml_feedback_rating'])) {
-            $data['module_opencartml_feedback_rating'] = $this->request->post['module_opencartml_feedback_status_post'];
+            $data['module_opencartml_feedback_rating'] = $this->request->post['module_opencartml_feedback_rating'];
         } else {
             $data['module_opencartml_feedback_rating'] = $this->config->get('module_opencartml_feedback_rating');
         }
