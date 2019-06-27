@@ -410,7 +410,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_completed" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status['order_status_id'] == 'module_opencartml_completed'): ?>
+                                        <?php if ($status['order_status_id'] == $module_opencartml_completed): ?>
                                         <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
@@ -426,7 +426,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_shiped" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status['order_status_id'] == 'module_opencartml_shiped'): ?>
+                                        <?php if ($status['order_status_id'] == $module_opencartml_shiped): ?>
                                         <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
@@ -443,7 +443,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_delivered" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status['order_status_id'] == 'module_opencartml_delivered'): ?>
+                                        <?php if ($status['order_status_id'] == $module_opencartml_delivered): ?>
                                         <option value="<?php echo $status['order_status_id']; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status['order_status_id']; ?>"><?php echo $status['name']; ?></option>
@@ -459,7 +459,7 @@
                                 <div class="col-sm-10">
                                     <select name="module_opencartml_canceled" class="form-control">
                                         <?php foreach($statuses as $status):?>
-                                        <?php if ($status['order_status_id'] == 'module_opencartml_canceled'): ?>
+                                        <?php if ($status['order_status_id'] == $module_opencartml_canceled): ?>
                                         <option value="<?php echo $status.order_status_id; ?>" selected><?php echo $status['name']; ?></option>
                                         <?php else: ?>
                                         <option value="<?php echo $status.order_status_id; ?>"><?php echo $status['name']; ?></option>
