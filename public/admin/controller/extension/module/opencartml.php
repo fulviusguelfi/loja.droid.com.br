@@ -54,8 +54,6 @@ class ControllerExtensionModuleOpencartml extends Controller {
                 'module_opencartml_feedback_rating' => $this->request->post['module_opencartml_feedback_rating'],
                 'module_opencartml_feedback_message' => $this->request->post['module_opencartml_feedback_message'],
                 'module_opencartml_adtype' => $this->request->post['module_opencartml_adtype'],
-                
-                
                 'module_opencartml_itemcondition' => $this->request->post['module_opencartml_itemcondition'],
                 'module_opencartml_aguardando_pagamento' => $this->request->post['module_opencartml_aguardando_pagamento'],
                 'module_opencartml_analise' => $this->request->post['module_opencartml_analise'],
@@ -67,7 +65,13 @@ class ControllerExtensionModuleOpencartml extends Controller {
 
 
             $this->session->data['success'] = $this->language->get('text_success');
-            $this->response->redirect($this->url->link('marketplace/extension', 'token=' . $token, true));
+
+            $location = str_replace('&amp;', '&', $this->url->link('marketplace/extension', 'token=' . $this->session->data['token'], true));
+            header('Location: ' . $location);
+
+
+            $this->response->redirect($location);
+//            $this->response->redirect($this->url->link('marketplace/extension', 'token=' . $token, true));
         }
 
         $par1 = $this->config->get('module_opencartml_client_id');
@@ -278,21 +282,21 @@ class ControllerExtensionModuleOpencartml extends Controller {
         } else {
             $data['module_opencartml_ml_cpf'] = $this->config->get('module_opencartml_ml_cpf');
         }
-        
+
         /* Client_custom field numero */
         if (isset($this->request->post['module_opencartml_category'])) {
             $data['module_opencartml_category'] = $this->request->post['module_opencartml_category'];
         } else {
             $data['module_opencartml_category'] = $this->config->get('module_opencartml_category');
         }
-        
+
         /* Client_custom field numero */
         if (isset($this->request->post['module_opencartml_subcategory'])) {
             $data['module_opencartml_subcategory'] = $this->request->post['module_opencartml_subcategory'];
         } else {
             $data['module_opencartml_subcategory'] = $this->config->get('module_opencartml_subcategory');
         }
-        
+
         /* Client_custom field numero */
         if (isset($this->request->post['module_opencartml_currency'])) {
             $data['module_opencartml_currency'] = $this->request->post['module_opencartml_currency'];
@@ -326,7 +330,7 @@ class ControllerExtensionModuleOpencartml extends Controller {
         } else {
             $data['module_opencartml_itemcondition'] = $this->config->get('module_opencartml_itemcondition');
         }
-        
+
         /* FeedBack Status */
         if (isset($this->request->post['module_opencartml_feedback_status'])) {
             $data['module_opencartml_feedback_status'] = $this->request->post['module_opencartml_feedback_status'];
