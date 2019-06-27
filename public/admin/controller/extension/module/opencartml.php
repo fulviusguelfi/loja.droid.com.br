@@ -70,7 +70,6 @@ class ControllerExtensionModuleOpencartml extends Controller {
             header('Location: ' . $location);
 
 
-            $this->response->redirect($location);
 //            $this->response->redirect($this->url->link('marketplace/extension', 'token=' . $token, true));
         }
 
