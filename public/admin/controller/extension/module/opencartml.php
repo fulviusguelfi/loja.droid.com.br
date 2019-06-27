@@ -66,7 +66,7 @@ class ControllerExtensionModuleOpencartml extends Controller {
 
             $this->session->data['success'] = $this->language->get('text_success');
 
-            $location = str_replace('&amp;', '&', $this->url->link('marketplace/extension', 'token=' . $this->session->data['token'], true));
+            $location = str_replace('&amp;', '&', $this->url->link('extension/extension', 'token=' . $this->session->data['token'], true));
             header('Location: ' . $location);
 
 
